@@ -21,7 +21,6 @@ fi
 # Update the YUM repositories
 echo "Updating YUM repositories..."
 yum clean all
-yum update -y
 
 echo "Repository update completed successfully."
 
