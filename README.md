@@ -4,6 +4,13 @@
 
 This repository provides a script named `fixer.sh` that updates the CentOS repository configuration on your server. The script replaces the existing `/etc/yum.repos.d/CentOS-Base.repo` file with a new version, ensuring your system is using the correct repository settings.
 
+## CentOS available mirror list 
+```
+https://vault.centos.org/
+http://archive.kernel.org/centos-vault/
+http://linuxsoft.cern.ch/centos-vault/
+http://mirror.nsc.liu.se/centos-store/
+```
 ## Overview
 
 The `fixer.sh` script is designed to:
