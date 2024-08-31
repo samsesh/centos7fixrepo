@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL of the new repository file
-URL="https://raw.githubusercontent.com/samsesh/centos7fixrepo/Localhost/CentOS-Base.repo"
+URL="https://raw.githubusercontent.com/samsesh/centos7fixrepo/Localhost/CentOS-Base.repo.1"
 
 # Path to the local repository file
 LOCAL_FILE="/etc/yum.repos.d/CentOS-Base.repo"
