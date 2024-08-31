@@ -17,7 +17,7 @@ The `fixer.sh` script is designed to:
 To execute the script directly from the provided URL, use the following command:
 
 ```bash
-bash <(curl -s https://github.com/samsesh/centos7fixrepo/raw/Localhost/fixer.sh)
+bash <(curl -fsSL https://github.com/samsesh/centos7fixrepo/raw/Localhost/fixer.sh)
 ```
 
 ### Step-by-Step Instructions
@@ -26,7 +26,7 @@ bash <(curl -s https://github.com/samsesh/centos7fixrepo/raw/Localhost/fixer.sh)
 
 2. **Run the script** using the `bash <(curl ...)` command:
     ```bash
-    bash <(curl -s https://github.com/samsesh/centos7fixrepo/raw/Localhost/fixer.sh)
+    bash <(curl -fsSL https://github.com/samsesh/centos7fixrepo/raw/Localhost/fixer.sh)
     ```
 
 3. The script will:
