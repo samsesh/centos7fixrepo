@@ -1,0 +1,20 @@
+[epel]
+name=Extra Packages for Enterprise Linux $releasever - $basearch
+baseurl=https://mirror.cs.princeton.edu/pub/mirrors/epel/$releasever/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://mirror.cs.princeton.edu/pub/mirrors/epel/RPM-GPG-KEY-EPEL-$releasever
+
+[epel-debuginfo]
+name=Extra Packages for Enterprise Linux $releasever - $basearch - Debug
+baseurl=https://mirror.cs.princeton.edu/pub/mirrors/epel/$releasever/$basearch/debug
+enabled=0
+gpgcheck=1
+gpgkey=https://mirror.cs.princeton.edu/pub/mirrors/epel/RPM-GPG-KEY-EPEL-$releasever
+
+[epel-source]
+name=Extra Packages for Enterprise Linux $releasever - $basearch - Source
+baseurl=https://mirror.cs.princeton.edu/pub/mirrors/epel/$releasever/source/tree/
+enabled=0
+gpgcheck=1
+gpgkey=https://mirror.cs.princeton.edu/pub/mirrors/epel/RPM-GPG-KEY-EPEL-$releasever
